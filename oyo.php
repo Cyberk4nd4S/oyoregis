@@ -437,12 +437,7 @@ if($json->is_user_present == 1){
 	echo "Nomor sudah terdaftar";
 	goto ulang;
 }
-echo '_       _                _
- ___(_)_ __ | |_ __ _    ___ | |_ _ __
-/ __| | '_ \| __/ _` |  / _ \| __| '_ \
-\__ \ | | | | || (_| | | (_) | |_| |_) |
-|___/_|_| |_|\__\__,_|  \___/ \__| .__/
-                                 |_| : '; 
+echo 'Enter OTP : '; 
 $otp = trim(fgets(STDIN)); 
 echo 'Enter refferal : '; 
 $reff = trim(fgets(STDIN)); 
